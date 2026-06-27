@@ -2,7 +2,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
 import { FiDownload, FiEye, FiFileText } from "react-icons/fi";
-import resumeUrl from "@/assets/Resume.pdf";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,7 +67,7 @@ export function Resume() {
 
 					<div className="flex w-full flex-col gap-3 sm:flex-row md:w-auto">
 						<a
-							href={resumeUrl}
+							href="/Resume.pdf"
 							target="_blank"
 							rel="noreferrer"
 							className="group inline-flex items-center justify-center gap-2 rounded-full bg-[image:var(--gradient-primary)] px-6 py-3 font-semibold text-primary-foreground transition-transform hover:scale-[1.03]"
@@ -78,7 +77,7 @@ export function Resume() {
 						</a>
 
 						<a
-							href={resumeUrl}
+							href="/Resume.pdf"
 							download="Kirubel_Daniel_Resume.pdf"
 							className="group glass inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors hover:bg-secondary/80"
 						>
