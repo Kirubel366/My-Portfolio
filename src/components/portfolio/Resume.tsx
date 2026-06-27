@@ -67,7 +67,7 @@ export function Resume() {
 
 					<div className="flex w-full flex-col gap-3 sm:flex-row md:w-auto">
 						<a
-							href="/Resume.pdf"
+							href="/Kirubel_Daniel_Resume.pdf"
 							target="_blank"
 							rel="noreferrer"
 							className="group inline-flex items-center justify-center gap-2 rounded-full bg-[image:var(--gradient-primary)] px-6 py-3 font-semibold text-primary-foreground transition-transform hover:scale-[1.03]"
@@ -77,7 +77,7 @@ export function Resume() {
 						</a>
 
 						<a
-							href="/Resume.pdf"
+							href="/Kirubel_Daniel_Resume.pdf"
 							download="Kirubel_Daniel_Resume.pdf"
 							className="group glass inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors hover:bg-secondary/80"
 						>
