@@ -42,7 +42,7 @@ const projects = [
 	{
 		title: "Volunteer Engagement & Landing Platform",
 		description:
-			"A centralized volunteer management system with an integrated landing page, enabling the organization to showcase their mission, list their events, register volunteers, and manage volunteer datas efficiently.",
+			"A centralized volunteer management system with an integrated landing page, enabling the organization to showcase their mission, list their events, register volunteers, and manage volunteer data efficiently.",
 		image: p2,
 		stack: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind"],
 		demo: "https://enpa-beta.vercel.app/",

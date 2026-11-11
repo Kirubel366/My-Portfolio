@@ -7,7 +7,7 @@ import award5 from "@/assets/award5.jpg";
 
 const awards = [
 	{
-		title: "Nonodegree Program Completion Award",
+		title: "Nanodegree Program Completion Award",
 		description:
 			"Recognized for completing 'Programming Fundamentals' course on Udacity.",
 		image: award1,
